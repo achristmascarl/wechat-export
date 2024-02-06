@@ -105,3 +105,9 @@ dist
 
 start.sh
 /silk/silk/decoder
+
+input
+input/*
+output
+output/*
+.DS_Store

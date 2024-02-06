@@ -154,7 +154,7 @@ const parseMessages = async (messages, input, output, messageId) => {
     JSON.stringify({ id: messageId, messages: parsed }, null, "  ")
   );
 
-  await generateHTMLFromJSON(msgOutput);
+  // await generateHTMLFromJSON(msgOutput);
 };
 
 module.exports = parseMessages;
